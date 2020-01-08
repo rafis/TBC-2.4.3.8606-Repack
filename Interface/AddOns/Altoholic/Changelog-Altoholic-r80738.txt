@@ -1,0 +1,38 @@
+------------------------------------------------------------------------
+r80738 | Thaoky | 2008-08-20 13:32:26 -0400 (Wed, 20 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/Altoholic/Altoholic.lua
+   M /trunk/Altoholic/Altoholic.toc
+   M /trunk/Altoholic/Frames/Skills.lua
+   A /trunk/Altoholic/localization_ruRU.lua
+
+Altoholic:
+- Added ruRU localization (Thanks Hellbot)
+------------------------------------------------------------------------
+r79819 | Thaoky | 2008-08-05 12:42:38 -0400 (Tue, 05 Aug 2008) | 4 lines
+Changed paths:
+   M /trunk/Altoholic/Altoholic.lua
+   M /trunk/Altoholic/AltoholicFu.lua
+   M /trunk/Altoholic/AltoholicTemplates.xml
+   M /trunk/Altoholic/Core.lua
+   M /trunk/Altoholic/Frames/AccountSummary.lua
+   M /trunk/Altoholic/Frames/Equipment.lua
+   M /trunk/Altoholic/Frames/Search.lua
+   M /trunk/Altoholic/Frames/Search.xml
+   M /trunk/Altoholic/Frames/Skills.lua
+   M /trunk/Altoholic/Frames/TabOptions.xml
+   M /trunk/Altoholic/Frames/TabSearch.lua
+   M /trunk/Altoholic/Frames/TabSearch.xml
+   M /trunk/Altoholic/Loots.lua
+   M /trunk/Altoholic/changelog.txt
+   M /trunk/Altoholic/localization_deDE.lua
+   M /trunk/Altoholic/localization_enUS.lua
+   M /trunk/Altoholic/localization_frFR.lua
+   M /trunk/Altoholic/localization_zhCN.lua
+   M /trunk/Altoholic/localization_zhTW.lua
+
+Altoholic:
+- Several bug fixes
+- Improved search panes, column headers added.
+- See changelog.txt for additional details
+------------------------------------------------------------------------

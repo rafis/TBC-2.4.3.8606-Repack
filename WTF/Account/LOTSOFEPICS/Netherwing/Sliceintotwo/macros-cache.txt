@@ -1,0 +1,8 @@
+MACRO 16777217 "shieldblock" INV_Misc_QuestionMark
+#showtooltip Revenge
+/use 13
+/use 14
+/cast Shield Block
+/cast Revenge
+/startattack
+END

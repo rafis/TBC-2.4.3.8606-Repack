@@ -1,0 +1,255 @@
+﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Frame name="AltoholicTabCharacters" parent="AltoholicFrame" hidden="true">
+		<Size>
+			<AbsDimension x="758" y="447"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="0" y="0" />
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="$parentText1" inherits="GameFontNormalSmall" justifyH="LEFT" text="XML_ALTO_CHAR_DD1">
+					<Size>
+						<AbsDimension x="100" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="35" y="-105"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentText2" inherits="GameFontNormalSmall" justifyH="LEFT" text="XML_ALTO_CHAR_DD2">
+					<Size>
+						<AbsDimension x="100" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="35" y="-155"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentText3" inherits="GameFontNormalSmall" justifyH="LEFT" text="XML_ALTO_CHAR_DD3">
+					<Size>
+						<AbsDimension x="100" y="18"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="35" y="-205"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentStatus" inherits="GameFontNormal" justifyH="LEFT">
+					<Size x="320" y="24" />
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT">
+							<Offset x="-250" y="13" />
+						</Anchor>
+					</Anchors>
+					<Color r="255" g="255" b="255" />
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="$parent_SelectRealm" inherits="UIDropDownMenuTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentText1" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="-25" y="-2"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						UIDropDownMenu_SetWidth(120, this) 
+						UIDropDownMenu_SetButtonWidth(20, this)
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<Frame name="$parent_SelectChar" inherits="UIDropDownMenuTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentText2" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="-25" y="-2"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						UIDropDownMenu_SetWidth(120, this) 
+						UIDropDownMenu_SetButtonWidth(20, this)
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<Frame name="$parent_View" inherits="UIDropDownMenuTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentText3" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="-25" y="-2"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						UIDropDownMenu_SetWidth(120, this) 
+						UIDropDownMenu_SetButtonWidth(20, this)
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<Frame name="$parentClasses">
+				<Size>
+					<AbsDimension x="615" y="41"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="42" y="-55"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Button name="$parentItem1" inherits="BagItemTemplate" />
+					<Button name="$parentItem2" inherits="BagItemTemplate" />
+					<Button name="$parentItem3" inherits="BagItemTemplate" />
+					<Button name="$parentItem4" inherits="BagItemTemplate" />
+					<Button name="$parentItem5" inherits="BagItemTemplate" />
+					<Button name="$parentItem6" inherits="BagItemTemplate" />
+					<Button name="$parentItem7" inherits="BagItemTemplate" />
+					<Button name="$parentItem8" inherits="BagItemTemplate" />
+					<Button name="$parentItem9" inherits="BagItemTemplate" />
+					<Button name="$parentItem10" inherits="BagItemTemplate" />
+				</Frames>
+			</Frame>
+			<Frame name="$parentRepNames" hidden="true">
+				<Size>
+					<AbsDimension x="65" y="135"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentText3" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parentRepText1" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL1">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="0.8" g="0.13" b="0.13" />
+						</FontString>
+						<FontString name="$parentRepText2" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL2">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText1" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="1.0" g="0.0" b="0.0" />
+						</FontString>
+						<FontString name="$parentRepText3" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL3">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText2" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="0.93" g="0.4" b="0.13" />
+						</FontString>
+						<FontString name="$parentRepText4" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL4">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText3" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="1.0" g="1.0" b="0.0" />
+						</FontString>
+						<FontString name="$parentRepText5" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL5">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText4" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="0.0" g="1.0" b="0.0" />
+						</FontString>
+						<FontString name="$parentRepText6" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL6">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText5" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="0.0" g="1.0" b="0.53" />
+						</FontString>
+						<FontString name="$parentRepText7" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL7">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText6" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="0.0" g="1.0" b="0.8" />
+						</FontString>
+						<FontString name="$parentRepText8" inherits="GameFontNormalSmall" justifyH="LEFT" text="FACTION_STANDING_LABEL8">
+							<Size>
+								<AbsDimension x="60" y="14"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeTo="$parentRepText7" relativePoint="BOTTOMLEFT">
+									<Offset>
+										<AbsDimension x="0" y="-3"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+							<Color r="0.0" g="1.0" b="1.0" />
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>			
+		</Frames>
+	</Frame>
+	
+	<Script file="TabCharacters.lua"></Script>
+</Ui>

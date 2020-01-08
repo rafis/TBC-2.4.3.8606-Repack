@@ -1,0 +1,5 @@
+
+EnhTooltipConfig = {
+	["profile.Default"] = {
+	},
+}

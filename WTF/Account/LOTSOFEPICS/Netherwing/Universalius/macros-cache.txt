@@ -1,0 +1,7 @@
+MACRO 16777217 "mangle" INV_Misc_QuestionMark
+#showtooltip Mangle (Cat)()
+/use 13
+/use 14
+/cast Mangle (Cat)()
+/startattack
+END

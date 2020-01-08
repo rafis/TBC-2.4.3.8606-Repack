@@ -1,0 +1,13 @@
+<Ui>
+
+	<Script file="AzDialog.lua"/>
+
+	<Script file="Scanner.lua"/>
+	<Script file="Examiner.lua"/>
+
+	<Script file="Locales\enUS.lua"/>
+	<Script file="Locales\deDE.lua"/>
+	<Script file="Locales\koKR.lua"/>
+	<Script file="Locales\frFR.lua"/>
+
+</Ui>

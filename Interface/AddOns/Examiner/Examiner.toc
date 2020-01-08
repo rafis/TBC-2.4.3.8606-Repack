@@ -1,0 +1,7 @@
+## Interface: 20400
+## Version: 08.05.03
+## Title: Examiner
+## Author: Ryn (Earthen Ring EU)
+## Notes: Advanced Inspection Mod of Gear, Talents, Honor and Arena Details.
+## SavedVariables: Examiner_Config, Examiner_Cache
+Examiner.xml
