@@ -1,0 +1,13 @@
+MACRO 16777218 "frostbolt" INV_Misc_QuestionMark
+#showtooltip Frostbolt
+/use Vengeance of the Illidari
+/cast Frostbolt
+END
+MACRO 16777217 "waterelem" INV_Misc_QuestionMark
+#showtooltip Summon Water Elemental
+/cast [nopet] Summon Water Elemental
+/stop macro [nopet]
+/petpassive
+/petattack
+/cast Icy Veins
+END

@@ -20,7 +20,7 @@ AtlasQuest_Options = {
 		["AtlasAutoShow"] = 1,
 		["NoQuerySpam"] = "yes",
 	},
-	["Windfurious"] = {
+	["Dotspam"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 		["NoQuerySpam"] = "yes",
@@ -36,7 +36,12 @@ AtlasQuest_Options = {
 		["AtlasAutoShow"] = 1,
 		["NoQuerySpam"] = "yes",
 	},
-	["Dotspam"] = {
+	["Ikilluumenot"] = {
+		["ShownSide"] = "Left",
+		["AtlasAutoShow"] = 1,
+		["NoQuerySpam"] = "yes",
+	},
+	["Windfurious"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 		["NoQuerySpam"] = "yes",

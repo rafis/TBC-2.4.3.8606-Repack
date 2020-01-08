@@ -1,40 +1,9 @@
-MACRO 16777219 "agony" INV_Misc_QuestionMark
-#showtooltip Curse of Agony
-/use 13
-/use 14
-/cast Amplify Curse
-/cast Curse of Agony
-/startattack
-END
-MACRO 16777218 "corruption" INV_Misc_QuestionMark
+MACRO 16777218 "corruption" Spell_Shadow_AbominationExplosion
 #showtooltip Corruption
 /use 13
 /use 14
 /cast Corruption
-/startattack
 END
 MACRO 16777217 "petattack" Ability_GhoulFrenzy
-#showtooltip
 /petattack
-END
-MACRO 16777221 "shadowbolt" INV_Misc_QuestionMark
-#showtooltip Shadow Bolt
-/use 13
-/use 14
-/cast Shadow Bolt
-/startattack
-END
-MACRO 16777222 "siphon" INV_Misc_QuestionMark
-#showtooltip Siphon Life
-/use 13
-/use 14
-/cast Siphon Life
-/startattack
-END
-MACRO 16777220 "unstable" INV_Misc_QuestionMark
-#showtooltip Unstable Affliction
-/use 13
-/use 14
-/cast Unstable Affliction
-/startattack
 END

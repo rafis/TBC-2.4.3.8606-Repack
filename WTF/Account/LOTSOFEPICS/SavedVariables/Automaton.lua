@@ -22,7 +22,7 @@ AutomatonDB = {
 				},
 			},
 		},
-		["Summon"] = {
+		["Wuss"] = {
 			["profiles"] = {
 				["Default"] = {
 					["disabled"] = false,
@@ -43,19 +43,11 @@ AutomatonDB = {
 				},
 			},
 		},
-		["Wuss"] = {
+		["Summon"] = {
 			["profiles"] = {
 				["Default"] = {
 					["disabled"] = false,
 				},
-			},
-		},
-	},
-	["profiles"] = {
-		["Default"] = {
-			["minimapPosition"] = 214.8488530001376,
-			["detachedTooltip"] = {
-				["fontSizePercent"] = 1,
 			},
 		},
 	},
@@ -64,16 +56,24 @@ AutomatonDB = {
 			["Wuss"] = true,
 			["Plates"] = true,
 			["Dismount"] = true,
-			["Repair"] = true,
-			["Gossip"] = true,
+			["Loner"] = true,
+			["LootBOP"] = true,
 			["Rez"] = true,
+			["Summon"] = true,
+			["Release"] = true,
 			["Mailer"] = true,
 			["Ding"] = true,
 			["Filter"] = true,
-			["Release"] = true,
-			["Summon"] = true,
-			["LootBOP"] = true,
-			["Loner"] = true,
+			["Gossip"] = true,
+			["Repair"] = true,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimapPosition"] = 214.8488530001376,
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
 		},
 	},
 }

@@ -1,0 +1,35 @@
+MACRO 1 "berserkerrage" INV_Misc_QuestionMark
+#showtooltip Berserker Rage
+/startattaack
+/cast Berserker Stance
+END
+MACRO 5 "charge" INV_Misc_QuestionMark
+#showtooltip Charge
+/cast [nocombat,stance:1] Charge; [combat,stance:3] Intercept; [nocombat,nostance:1] Battle Stance
+/cast Hamstring
+/startattack
+END
+MACRO 3 "devastate" INV_Misc_QuestionMark
+#showtooltip Devastate
+/startattaack
+/cast Heroic Strike
+/cast Devastate
+END
+MACRO 6 "intercept" INV_Misc_QuestionMark
+#showtooltip Intercept
+/cast [stance:3] Intercept; [combat,nostance:3] Berserker Stance
+/cast Hamstring
+/startattack
+END
+MACRO 4 "pummel" INV_Misc_QuestionMark
+#show [equipped:shield] Shield Bash; Pummel
+/cast [stance:1/2,equipped:Shields] Shield Bash; [noequipped:Shields,nostance:3] Berserker Stance
+/cast [stance:3] Pummel
+/startattack
+END
+MACRO 2 "shield" INV_Misc_QuestionMark
+#showtooltip Shield Slam
+/startattaack
+/cast Heroic Strike
+/cast Battle Stance
+END

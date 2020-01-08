@@ -2,9 +2,9 @@
 AtlasLootCharDB = {
 	["QuickLooks"] = {
 	},
-	["AtlasLootVersion"] = "40604",
-	["WishList"] = {
-	},
 	["SearchResult"] = {
 	},
+	["WishList"] = {
+	},
+	["AtlasLootVersion"] = "40604",
 }

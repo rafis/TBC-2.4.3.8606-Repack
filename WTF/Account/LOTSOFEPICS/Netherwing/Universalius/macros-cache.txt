@@ -1,7 +1,7 @@
 MACRO 16777217 "mangle" INV_Misc_QuestionMark
-#showtooltip Mangle (Cat)()
+#showtooltip
+/startattack
+/cast [nostance:3] Cat Form(Shapeshift); [nostealth, nocombat] !Prowl(Cat Form); [stealth] Ravage; Mangle(Cat Form)
 /use 13
 /use 14
-/cast Mangle (Cat)()
-/startattack
 END

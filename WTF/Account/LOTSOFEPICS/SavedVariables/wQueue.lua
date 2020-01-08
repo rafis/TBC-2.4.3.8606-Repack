@@ -5,8 +5,8 @@ wQueueOptions = {
 	["general"] = true,
 	["filter"] = false,
 	["trade"] = true,
-	["lfg"] = true,
 	["global"] = true,
+	["lfg"] = true,
 	["world"] = true,
 }
 notCaught = {

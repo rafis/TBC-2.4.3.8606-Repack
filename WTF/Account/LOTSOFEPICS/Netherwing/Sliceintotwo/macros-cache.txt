@@ -1,8 +1,11 @@
-MACRO 16777217 "shieldblock" INV_Misc_QuestionMark
+MACRO 16777217 "revenge" Ability_Warrior_Revenge
 #showtooltip Revenge
-/use 13
-/use 14
-/cast Shield Block
-/cast Revenge
 /startattack
+/cast [stance:2] Shield Block
+/cast [stance:2] Revenge
+END
+MACRO 16777218 "sunder" Ability_Warrior_Sunder
+#showtooltip Sunder Armor
+/startattack
+/castsequence reset=combat/6 Shield Slam, Devastate, Devastate, Devastate, Devastate, Devastate
 END

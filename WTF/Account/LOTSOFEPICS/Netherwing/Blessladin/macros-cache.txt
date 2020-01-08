@@ -1,7 +1,14 @@
-MACRO 16777217 "righteous" INV_Misc_QuestionMark
+MACRO 16777218 "justice" INV_Misc_QuestionMark
+#showtooltip Seal of Justice
+/startattack
+/use 13
+/use 14
+/cast Seal of Justice
+END
+MACRO 16777217 "rigtheousness" Ability_ThunderBolt
 #showtooltip Seal of Righteousness
+/startattack
 /use 13
 /use 14
 /cast Seal of Righteousness
-/startattack
 END
